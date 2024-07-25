@@ -1,0 +1,22 @@
+export default {
+  backgroundGrey: "#F7F9FD",
+  lightPurple: "#9DB2CA",
+  blue: "#292448",
+  greyBlue: "#6A8EB8",
+  lightGrey: "#ededed",
+  primaryPurple: "#4B089F",
+  primaryBlue: "#1122BE",
+  primaryRed: "#E22",
+  primaryGreen: "#11BE75",
+  primaryYellow: "#FF9A00",
+  secondaryGreyBlue: "#F0F4F8",
+  secondaryGrey: "#EAF1F6",
+  secondaryBlue: "#E7E9F9",
+  secondaryGreen: "#E7F8F1",
+  secondaryYellow: "#FFF5E5",
+  secondaryRed: "#FDE9E9",
+  tertiaryBlue: "#1976D2",
+  subtitle: "#535353",
+  white: "#ffffff",
+  reportTypeButton: "#EAF1F6"
+};

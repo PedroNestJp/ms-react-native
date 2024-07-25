@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Mais Saber",
+    "slug": "mais-saber",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "bundleIdentifier": "com.mvc.MaisSaberProfessor",
+      "buildNumber": "3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.lucaspimentel.maissaber",
+      "runtimeVersion": "1.0.5",
+      "versionCode": 6
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        "Permitir o acesso à câmera por Mais Saber"
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permitir o acesso à galeria por Mais Saber"
+        }
+      ]
+    ],
+    "scheme": "mais-saber-gabarito",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7acd8c80-8f51-4562-a160-6d0f1545c827"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7acd8c80-8f51-4562-a160-6d0f1545c827"
+    }
+  }
+}

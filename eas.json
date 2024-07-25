@@ -1,0 +1,18 @@
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "channel": "staging"
+    },
+    "preview-no-channel": {
+      "distribution": "internal"
+    },
+    "android-preview": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "production": {}
+  }
+}
